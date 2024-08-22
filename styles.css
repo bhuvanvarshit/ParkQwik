@@ -1,3 +1,7 @@
+body {
+    font-family: 'Poppins';
+}
+
 .profile-container {
     position: relative;
     aspect-ratio: 1.423;
@@ -117,7 +121,7 @@
 }
 .time{
     color: #fff;
-    font-family: system-ui;
+    /*font-family: system-ui;*/
     font-size: 15px;
 }
 .signal{
@@ -139,8 +143,8 @@ padding-left: 4px;
 }
 
 .services h3{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 500;
+    /*font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    */font-weight: 500;
     font-size: 16px;
     color: #393939;
 }
@@ -163,8 +167,10 @@ padding-left: 4px;
 
 .services-items p{
     margin: 5px;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 12px;
+    /*font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    */font-size: 12px;
+    color:#434343;
+    ;
 }
 .icon-border{
     padding: 5px 2px 5px 2px;
@@ -184,30 +190,29 @@ padding-left: 4px;
 }
 .Recharge-container h4{
         opacity: 0.5;
-        font-family: Arial, Helvetica, sans-serif;
+        /*font-family: Arial, Helvetica, sans-serif;*/
         font-size: 16px;
         color:black;
         margin-top:-2px;
 }
 .Recharge-container h3{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 500;
+    /*font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    */font-weight: 500;
     font-size: 16px;
     color: #393939;
 }
 .Adding-Vehicle-Number{
      border:1px solid #1A9E75;
      height:37px;
-     width:214px;
+     width: 224px;
      border-radius:7px;
 }
 
 .Adding-Vehicle-Number h5{
-    font-family:Arial, Helvetica, sans-serif;
+   /* font-family:Arial, Helvetica, sans-serif;*/
     position: relative;
-    bottom:11px;
-    left:10px;
     color:#1A9E75;
+    margin: 10px;
 }
 
 .recharge-button h5{
@@ -222,15 +227,15 @@ padding-left: 4px;
     background-color: #1A9E75;
     height:29px;
     width:82px;
-    margin-left:225px;
-    font-family: Arial, Helvetica, sans-serif;
+    margin-left:235px;
+   /* font-family: Arial, Helvetica, sans-serif;*/
 }
 
 .promoted-text h5{
-      font-family:Arial, Helvetica, sans-serif;
+     /* font-family:Arial, Helvetica, sans-serif;*/
       font-weight: 500;
       opacity:0.8;
-      color:black;
+      color:#434343;
 }
 
 .promoted-img1{
@@ -238,7 +243,7 @@ padding-left: 4px;
       justify-content: center;
       position: relative;
       bottom:58px;
-      right:90px;
+      right:80px;
 }
 
 .promoted-img2{
@@ -246,7 +251,7 @@ padding-left: 4px;
     justify-content: center;
     position: relative;
     bottom:101px;
-    right:38px;
+    right:20px;
 }
 .border-line{
     height:3px;
@@ -268,8 +273,8 @@ padding-left: 4px;
 }
 .Discover-items h3{
     position: relative;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 500;
+    /*font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    */font-weight: 500;
     font-size: 16px;
     color: #393939;
     bottom:44px;
@@ -282,9 +287,9 @@ padding-left: 4px;
     gap:3px;
 }
 .Discover-icon-items p{
-    color:black;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 12px;
+    color:#393939;
+    /*font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    */font-size: 12px;
     margin-top:16px;
     margin-left:2px;
 }
@@ -309,19 +314,19 @@ padding-left: 4px;
     margin-top: 10px; 
 }
 
-.cashback-item, h4{
+.cashback-item h4{
      color:#ecf2f0;
      font-size:18px;
      margin-left:13px;
      padding-top:11px;
-     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;*/
 }
 .discount-item {
     color:rgb(241, 236, 236);
     margin-left:25px;
     position:relative;
     bottom:15px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /*font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;*/
 }
 .money-button{
     height:30px;
@@ -331,8 +336,8 @@ padding-left: 4px;
     background-color:white;
 }
 .money-button p{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color:#1A9E75;
+   /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    */color:#1A9E75;
     font-size: 14px;
     margin-left: 27px;
     font-weight: 600;
@@ -348,6 +353,7 @@ padding-left: 4px;
     text-align:center;
     margin-top:18px;
     margin-left:61px;
+    width: 280px;
 }
 .dot1{
    height:20px;
@@ -369,4 +375,208 @@ padding-left: 4px;
     background-color:#d6dcda;
     border-radius:50%;
     display: inline-block;
+}
+
+.others-container{
+       border-radius: 15px;
+       position: relative;
+       width: 380px;
+       height: 145px;
+       padding: 10px;
+       margin-top: 40px;
+       box-shadow: 2px 3px 3px 3px #C7C7C7;
+}
+.others-container h3{
+    /*font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    */font-weight: 500;
+    font-size: 16px;
+    color: #393939;
+    position: relative;
+   }
+.others-grid{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 10px;
+}
+
+.other-icon-items{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    border-radius:9px;
+    height: 39px;
+    width: 72px;
+    position: relative;
+    background-color: #fff;
+}
+.other-icon-items p{
+    font-size:12px;
+    opacity: 0.9;
+    height:20px;
+    color:#434343;
+}  
+.deals-container h3{
+    color:#393939;
+    margin-left:5px;
+} 
+.deals-for-you img{
+    width: 395px;
+    height: 159px;
+}
+.travel-container{
+    height: 145px;
+    width : 380px;
+    padding: 9px;
+    margin-top: 40px;
+    box-shadow: 2px 3px 3px 3px #C7C7C7;
+    border-radius: 12px;
+}
+.travel-container h3{
+    color:#393939;
+    margin-left: 5px;
+    position:relative;
+    bottom:13px;
+
+}
+.travel-grid{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 10px;
+}
+
+.travel-icon-items{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    border-radius:9px;
+    height: 39px;
+    width: 63px;
+    background-color: #F0FFFA;
+    margin-left:10px;
+}
+.travel-icon-items p{
+    font-size:11px;
+    height:35px;
+    width:72px;
+    color:#434343;
+}
+.travel-items{
+    margin-top:6px;
+}
+.travel-items img{
+    height:27px;
+    width:27px;
+}
+
+.plan-container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.premium-plan-container{
+ width: 380px;
+}
+.premium-plan-container h3{
+    color: #393939;
+    margin-left: 12px;
+    position: relative;
+}
+.premium-plan{
+    background-image: linear-gradient(#48C9A1, #199E75);
+    border-radius: 35px;
+    width: 350px;
+}
+.plan-context h2 {
+    color: #FBFF29;
+    margin-left: 16px;
+    font-size: 20px;
+    position: relative;
+}
+
+.plan-context p{
+    color: #FFFFFF;
+    margin-left: 18px;
+    position: relative;
+    bottom: 6px;
+    font-size: 11px;
+    font-weight: 400;
+}
+.button-car{
+    display: flex;
+    flex-direction: row;
+}
+
+.explorenow-btn{
+    width: 100px;
+    height: 30px;
+    border-radius: 23px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    margin-left: 18px;
+    position: relative;
+    font-size: 12px;
+}
+
+.car-image img{
+    height: 46px;
+    width: 46px;
+    bottom: 15px;
+    left: 10px;
+    position: relative;
+}
+
+.recharge-bill-container{
+    position: relative;
+    background-color: #fff;
+    border-radius: 15px;
+    width: 380px;
+    height: 230px;
+    padding: 10px;
+    margin-top: 30px;
+    box-shadow: 0px 3px 3px 0px #C7C7C7;
+}
+.recharge-bill-container h3{
+    font-weight: 500;
+    font-size: 16px;
+    color: #393939;
+}
+.recharge-bill-grid{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 10px;
+}
+.recharge-bill-items{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    border-radius:28px;
+    margin-left:10px;
+    height:84px;
+    width:49px;
+}
+.recharge-bill-items img{
+    width: 23px;
+    height: 30px;
+    background-color: #F0FFFA;
+}
+
+.recharge-bill-items p{
+    margin: 5px;
+    font-size: 12px;
+    color:#434343;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
+.recharge-bill-icon{
+    padding: 5px 2px 5px 2px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 3px 0px #C7C7C7;
+    display: flex;
+    justify-content: center;
+    background-color: #F0FFFA;
 }
